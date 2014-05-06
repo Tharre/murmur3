@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
   }
 
   printf("Input: \"%s\"\n", argv[1]);
-  
+
   MurmurHash3_x86_32(argv[1], strlen(argv[1]), seed, hash);
   printf("x86_32:  %08x\n", hash[0]);
 

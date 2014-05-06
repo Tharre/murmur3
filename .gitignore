@@ -1,3 +1,2 @@
 example
-example.o
-murmur3.o
+*.o
